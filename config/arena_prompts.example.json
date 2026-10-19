@@ -1,0 +1,7 @@
+{
+  "messages": [
+    "Agent {account_id}: iniciando rodada controlada.",
+    "Agent {account_id}: recebi o contexto e vou responder curto.",
+    "Agent {account_id}: mantendo o experimento dentro da allowlist."
+  ]
+}

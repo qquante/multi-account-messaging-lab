@@ -1,0 +1,8 @@
+{
+  "strict": true,
+  "allowed_peers": [
+    "@seu_grupo_teste",
+    "-1001234567890"
+  ],
+  "notes": "Somente peers nesta lista podem receber envios. Para receber eventos, IDs numericos sao mais confiaveis que usernames."
+}

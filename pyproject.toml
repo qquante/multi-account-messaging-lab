@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stolas-multi-users-stack"
+version = "0.1.0"
+description = "Controlled multi-account Telegram MTProto experiment stack."
+requires-python = ">=3.11"
+dependencies = [
+  "Telethon>=1.40,<2",
+]
+
+[project.optional-dependencies]
+speed = [
+  "cryptg>=0.5",
+]
+tdata = [
+  "opentele==1.15.1",
+]
+all = [
+  "cryptg>=0.5",
+  "opentele==1.15.1",
+]
+
+[project.scripts]
+stolas-tg = "stolas_tg.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
